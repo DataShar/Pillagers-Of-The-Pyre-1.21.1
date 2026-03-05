@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "pillagers-of-the-pyre",
+	"version": "${version}",
+	"name": "Pillagers of the Pyre",
+	"description": "This mod aims to make the extend the content and story of the minecraft pillagers.",
+	"authors": [
+		"NightmaresMC"
+	],
+	"contact": {
+		"homepage": "https://nightmare.net",
+		"sources": "https://github.com/NightmaresMC-Mods/Pillagers-Of-The-Pyre-1.21.1"
+	},
+	"license": "MIT",
+	"icon": "assets/pillagers-of-the-pyre/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.nightmaresmc.potp.PillagersOfThePyre"
+		],
+		"fabric-datagen": [
+			"net.nightmaresmc.potp.PillagersOfThePyreDataGenerator"
+		],
+		"client": [
+			"net.nightmaresmc.potp.PillagersOfThePyreClient"
+		]
+	},
+	"mixins": [
+		"pillagers-of-the-pyre.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
