@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "pillagers-of-the-pyre:block/ravagerite_block"
+  }
+}

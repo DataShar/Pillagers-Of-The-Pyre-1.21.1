@@ -1,4 +1,12 @@
 {
-  "item.pillagers-of-the-pyre.red_garnet": "Red Garnet",
-  "item.pillagers-of-the-pyre.raw_red_garnet": "Raw Red Garnet"
+  "item.pillagers-of-the-pyre.ravagerite_ingot": "Ravagerite Ingot",
+  "item.pillagers-of-the-pyre.raw_ravagerite": "Raw Ravagerite",
+  "item.pillagers-of-the-pyre.ravagerite_shard": "Ravagerite Shard",
+
+  "block.pillagers-of-the-pyre.ravagerite_block": "Block of Ravagerite",
+  "block.pillagers-of-the-pyre.raw_ravagerite_block": "Raw Block of Ravagerite",
+  "block.pillagers-of-the-pyre.ravagerite_deepslate_ore": "Ravagerite Deepslate Ore",
+
+  "itemgroup.potp.ravagerite_items": "Ravagerite Items",
+  "itemgroup.potp.ravagerite_blocks": "Ravagerite Blocks"
 }

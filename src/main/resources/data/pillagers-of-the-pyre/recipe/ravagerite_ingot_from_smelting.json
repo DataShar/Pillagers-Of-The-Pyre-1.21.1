@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "ingredient": {
+    "item": "pillagers-of-the-pyre:raw_ravagerite"
+  },
+  "result": {
+    "id": "pillagers-of-the-pyre:ravagerite_ingot"
+  }
+}

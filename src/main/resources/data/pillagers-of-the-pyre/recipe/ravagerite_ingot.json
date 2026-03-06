@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "ingredients",
+  "ingredients": [
+    {
+      "item": "pillagers-of-the-pyre:ravagerite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "pillagers-of-the-pyre:ravagerite_ingot"
+  }
+}
