@@ -19,6 +19,9 @@ public class ModItemGroups {
                         entries.add(ModItems.RAVAGERITE_INGOT);
                         entries.add(ModItems.RAW_RAVAGERITE);
                         entries.add(ModItems.RAVAGERITE_SHARD);
+                        entries.add(ModItems.STAFF);
+                        entries.add(ModItems.RAVAGERITE_GEM);
+                        entries.add(ModItems.RAVAGERITE_INFUSED_STICK);
 
                     }).build());
 
@@ -31,7 +34,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAW_RAVAGERITE_BLOCK);
                         entries.add(ModBlocks.RAVAGERITE_DEEPSLATE_ORE);
 
-                    }).build());
+                        entries.add(ModBlocks.MAGIC_FORGER);
+
+                    }).build());{
+    }
+
 
 
 

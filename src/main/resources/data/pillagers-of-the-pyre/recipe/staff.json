@@ -1,0 +1,26 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "ingredients",
+  "key": {
+    "#": {
+      "item": "pillagers-of-the-pyre:ravagerite_infused_stick"
+    },
+
+    "D": {
+      "item": "pillagers-of-the-pyre:ravagerite_gem"
+    },
+    "W": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "WDW",
+    "W#W",
+    "W#W"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pillagers-of-the-pyre:staff"
+  }
+}

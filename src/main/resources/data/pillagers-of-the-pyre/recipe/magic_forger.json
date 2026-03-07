@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "pillagers-of-the-pyre:ravagerite_block"
+    },
+    "D": {
+      "item": "pillagers-of-the-pyre:ravagerite_gem"
+    },
+    "W": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "pattern": [
+    "#D#",
+    "DWD",
+    "#D#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pillagers-of-the-pyre:magic_forger"
+  }
+}

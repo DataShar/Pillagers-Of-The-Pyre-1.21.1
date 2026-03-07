@@ -7,11 +7,16 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.nightmaresmc.potp.PillagersOfThePyre;
+import net.nightmaresmc.potp.item.custom.StaffItem;
 
 public class ModItems {
     public static final Item RAVAGERITE_INGOT = registerItem("ravagerite_ingot", new Item(new Item.Settings()));
     public static final Item RAW_RAVAGERITE = registerItem("raw_ravagerite", new Item(new Item.Settings()));
-    public static final Item RAVAGERITE_SHARD =registerItem("ravagerite_shard", new Item(new Item.Settings()));
+    public static final Item RAVAGERITE_SHARD = registerItem("ravagerite_shard", new Item(new Item.Settings()));
+    public static final Item RAVAGERITE_GEM = registerItem("ravagerite_gem",new Item(new Item.Settings()));
+    public static final Item RAVAGERITE_INFUSED_STICK = registerItem("ravagerite_infused_stick", new Item(new Item.Settings()));
+
+    public static final Item STAFF =registerItem("staff", new StaffItem(new Item.Settings().maxDamage(32)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(PillagersOfThePyre.MOD_ID, name), item);

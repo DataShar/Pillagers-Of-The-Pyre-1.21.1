@@ -13,6 +13,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.nightmaresmc.potp.PillagersOfThePyre;
+import net.nightmaresmc.potp.block.custom.MagicForgerBlock;
 
 public class ModBlocks {
     public static final Block RAVAGERITE_BLOCK = registerBlock("ravagerite_block",
@@ -24,7 +25,8 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 3),
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.ANCIENT_DEBRIS)));
 
-
+public static final Block MAGIC_FORGER = registerBlock("magic_forger",
+        new MagicForgerBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
 
 
