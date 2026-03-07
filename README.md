@@ -2,4 +2,4 @@ This mod aims to expand on the pillager system by adding new biomes, Pillager ty
 Download the mods and find out. Link: https://drive.google.com/file/d/14koPrv5rn3mQXd4K_J1JyryU9lJRyIKc/view?usp=drive_link
 
 
-NOTE: This mod is in pre-alpha stage so dont expect crazy stuff like some other mods. ALSO it is my first ever mod and the textures dont work. If anybody wants to help me create the textures for free feel free to ask.
+NOTE: This mod is in pre-alpha stage so dont expect crazy stuff like some other mods. ALSO it is my first ever mod and the textures dont look that good. If anybody wants to help me create the textures for free, feel free to ask.
