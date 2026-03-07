@@ -1,2 +1,2 @@
-This mod aims to expand on the pillager system.
-https://drive.google.com/file/d/14koPrv5rn3mQXd4K_J1JyryU9lJRyIKc/view?usp=drive_link
+This mod aims to expand on the pillager system by adding new biomes, Pillager types, Structures, Mobs with custom animations and even a custom story centered around an evil pillager king... but who knows what hes planning... who knows if hes the real king or just a decoy to hide the truth from us... 
+Download the mods and find out. Link: https://drive.google.com/file/d/14koPrv5rn3mQXd4K_J1JyryU9lJRyIKc/view?usp=drive_link
