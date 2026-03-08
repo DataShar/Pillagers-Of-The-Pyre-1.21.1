@@ -6,10 +6,12 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.projectile.SmallFireballEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
+import net.minecraft.text.Text;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.math.BlockPos;
@@ -147,6 +149,14 @@ public class StaffItem extends Item {
             }
         }
 
-        return TypedActionResult.success(stack, world.isClient());
+        return TypedActionResult.success(stack, world.isClient()); //
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+        tooltip.add(Text.translatable("tooltip.pillagers-of-the-pyre.staff.tooltip.1"));
+        tooltip.add(Text.translatable("tooltip.pillagers-of-the-pyre.staff.tooltip.2"));
+        tooltip.add(Text.translatable("tooltip.pillagers-of-the-pyre.staff.tooltip.3"));
+        super.appendTooltip(stack, context, tooltip, type);
     }
 }
