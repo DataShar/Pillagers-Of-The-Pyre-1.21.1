@@ -20,6 +20,9 @@ public class ModItems {
     public static final Item COOKED_GOAT_MEAT = registerItem("cooked_goat_meat", new Item(new Item.Settings().food(ModFoodComponents.COOKED_GOAT_MEAT)));
     public static final Item RAW_HORSE_MEAT = registerItem("raw_horse_meat", new Item(new Item.Settings().food(ModFoodComponents.RAW_HORSE_MEAT)));
     public static final Item COOKED_HORSE_MEAT = registerItem("cooked_horse_meat", new Item(new Item.Settings().food(ModFoodComponents.COOKED_HORSE_MEAT)));
+    public static final Item PILLAGER_HERB = registerItem("pillager_herb", new Item(new Item.Settings().food(ModFoodComponents.PILLAGER_HERB)));
+    public static final Item DRAGON_FLAME_EMBERS = registerItem("dragon_flame_embers", new Item(new Item.Settings()));
+
 
 
     public static final Item STAFF =registerItem("staff", new StaffItem(new Item.Settings().maxDamage(32)));

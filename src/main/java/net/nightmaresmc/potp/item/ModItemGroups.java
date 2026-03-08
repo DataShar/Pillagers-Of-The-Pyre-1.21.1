@@ -57,8 +57,20 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_HORSE_MEAT);
                         entries.add(ModItems.COOKED_GOAT_MEAT);
                         entries.add(ModItems.COOKED_HORSE_MEAT);
+                        entries.add(ModItems.PILLAGER_HERB);
 
                     }).build());
+
+    public static final ItemGroup PILLAGER_FUEL_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(PillagersOfThePyre.MOD_ID, "pillager_fuel"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.DRAGON_FLAME_EMBERS))
+                    .displayName(Text.translatable("itemgroup.potp.pillager_fuel"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.DRAGON_FLAME_EMBERS);
+
+                    }).build());
+
+
     public static void registerItemGroups() {
         PillagersOfThePyre.LOGGER.info("Registering Item Groups for " + PillagersOfThePyre.MOD_ID);
     }

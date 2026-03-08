@@ -10,6 +10,8 @@
   "item.pillagers-of-the-pyre.raw_horse_meat": "Raw Horse Meat",
   "item.pillagers-of-the-pyre.cooked_goat_meat": "Cooked Goat Meat",
   "item.pillagers-of-the-pyre.cooked_horse_meat": "Cooked Horse Meat",
+  "item.pillagers-of-the-pyre.pillager_herb": "Pillager Herb",
+  "item.pillagers-of-the-pyre.dragon_flame_embers": "Dragon Flame Embers",
 
 
 
@@ -21,6 +23,6 @@
   "itemgroup.potp.ravagerite_items": "Ravagerite Items",
   "itemgroup.potp.ravagerite_blocks": "Ravagerite Blocks",
   "itemgroup.potp.pillager_foods": "Pillager Foods",
-  "itemgroup.potp.pillager_drinks": "Pillager Drinks"
-
+  "itemgroup.potp.pillager_drinks": "Pillager Drinks",
+  "itemgroup.potp.pillager_fuel": "Pillager Fuel"
 }
