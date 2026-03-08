@@ -5,6 +5,12 @@
   "item.pillagers-of-the-pyre.staff": "Ravagerite Staff",
   "item.pillagers-of-the-pyre.ravagerite_infused_stick": "Ravagerite Infused Stick",
   "item.pillagers-of-the-pyre.ravagerite_gem": "Ravagerite Gem",
+  "item.pillagers-of-the-pyre.mead": "Pillager Mead",
+  "item.pillagers-of-the-pyre.raw_goat_meat": "Raw Goat Meat",
+  "item.pillagers-of-the-pyre.raw_horse_meat": "Raw Horse Meat",
+  "item.pillagers-of-the-pyre.cooked_goat_meat": "Cooked Goat Meat",
+  "item.pillagers-of-the-pyre.cooked_horse_meat": "Cooked Horse Meat",
+
 
 
   "block.pillagers-of-the-pyre.ravagerite_block": "Block of Ravagerite",
@@ -13,5 +19,8 @@
   "block.pillagers-of-the-pyre.magic_forger": "Magic Forger",
 
   "itemgroup.potp.ravagerite_items": "Ravagerite Items",
-  "itemgroup.potp.ravagerite_blocks": "Ravagerite Blocks"
+  "itemgroup.potp.ravagerite_blocks": "Ravagerite Blocks",
+  "itemgroup.potp.pillager_foods": "Pillager Foods",
+  "itemgroup.potp.pillager_drinks": "Pillager Drinks"
+
 }

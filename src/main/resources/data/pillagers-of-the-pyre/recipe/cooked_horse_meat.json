@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "ingredient": {
+    "item": "pillagers-of-the-pyre:raw_horse_meat"
+  },
+  "result": {
+    "id": "pillagers-of-the-pyre:cooked_horse_meat"
+  }
+}

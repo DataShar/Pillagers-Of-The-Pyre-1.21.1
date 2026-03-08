@@ -36,12 +36,29 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.MAGIC_FORGER);
 
-                    }).build());{
-    }
+                    }).build());
+
+    public static final ItemGroup PILLAGER_DRINK_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(PillagersOfThePyre.MOD_ID, "pillager_drinks"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.MEAD))
+                    .displayName(Text.translatable("itemgroup.potp.pillager_drinks"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.MEAD);
 
 
+                    }).build());
 
+    public static final ItemGroup PILLAGER_FOOD_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(PillagersOfThePyre.MOD_ID, "pillager_foods"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.COOKED_HORSE_MEAT))
+                    .displayName(Text.translatable("itemgroup.potp.pillager_foods"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.RAW_GOAT_MEAT);
+                        entries.add(ModItems.RAW_HORSE_MEAT);
+                        entries.add(ModItems.COOKED_GOAT_MEAT);
+                        entries.add(ModItems.COOKED_HORSE_MEAT);
 
+                    }).build());
     public static void registerItemGroups() {
         PillagersOfThePyre.LOGGER.info("Registering Item Groups for " + PillagersOfThePyre.MOD_ID);
     }

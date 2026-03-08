@@ -15,9 +15,9 @@
     }
   },
   "pattern": [
-    "WDW",
-    "W#W",
-    "W#W"
+    " D ",
+    " # ",
+    " # "
   ],
   "result": {
     "count": 1,

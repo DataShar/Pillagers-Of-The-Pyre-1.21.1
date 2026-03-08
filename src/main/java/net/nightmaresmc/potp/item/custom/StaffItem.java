@@ -97,8 +97,8 @@ public class StaffItem extends Item {
                         user.getBlockPos(),
                         SoundEvents.ITEM_TOTEM_USE,
                         SoundCategory.PLAYERS,
-                        1.2f,
-                        0.8f
+                        1.4f,
+                        0.7f
                 );
 
                 // EXPLOSION (NO SELF DAMAGE)
