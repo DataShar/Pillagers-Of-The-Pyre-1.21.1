@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.nightmaresmc.potp.block.ModBlocks;
+import net.nightmaresmc.potp.component.ModDataComponentTypes;
 import net.nightmaresmc.potp.item.ModItemGroups;
 import net.nightmaresmc.potp.item.ModItems;
 import org.slf4j.Logger;
@@ -19,6 +20,8 @@ public class PillagersOfThePyre implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModDataComponentTypes.registerDataComponentTypes();
 
 		FuelRegistry.INSTANCE.add(ModItems.DRAGON_FLAME_EMBERS, 25000);
 	}
