@@ -17,6 +17,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.item.Items;
 import net.nightmaresmc.potp.item.ModItems;
+import net.nightmaresmc.potp.util.ModTags;
 
 import java.util.List;
 
@@ -35,12 +36,17 @@ public class MagicForgerBlock extends Block {
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if (entity instanceof ItemEntity itemEntity) {
-            if (itemEntity.getStack().getItem() == Items.STICK) {
+            if (isValidItem(itemEntity.getStack())) {
                 itemEntity.setStack(new ItemStack(ModItems.RAVAGERITE_INFUSED_STICK, itemEntity.getStack().getCount()));
             }
-        }
+        };
+        
 
         super.onSteppedOn(world, pos, state, entity);
+    }
+
+    private boolean isValidItem(ItemStack stack) {
+        return stack.isIn(ModTags.Items.MAGIC_FORGER_RECIPE_1);
     }
 
     @Override

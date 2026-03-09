@@ -30,15 +30,15 @@
   "tooltip.pillagers-of-the-pyre.staff.tooltip.2": "§4Shift + Right Click§r to explode",
   "tooltip.pillagers-of-the-pyre.staff.tooltip.3": "§4DONT GET BURNED§r",
 
-  "tooltip.pillagers-of-the-pyre.magic_forger.tooltip.1": "§4Throw a stick on it...§r",
-  "tooltip.pillagers-of-the-pyre.magic_forger.tooltip.2": "§4Who knows what it'll do§r",
+  "tooltip.pillagers-of-the-pyre.magic_forger.tooltip.1": "Often used by people to forge a §4Fire Staff§r",
+  "tooltip.pillagers-of-the-pyre.magic_forger.tooltip.2": "But suddenly ",
 
-  "tooltip.pillagers-of-the-pyre.dragon_embers.tooltip.shift_down.1": "§4The Flame Embers§r",
-  "tooltip.pillagers-of-the-pyre.dragon_embers.tooltip.shift_down.2": "",
-  "tooltip.pillagers-of-the-pyre.dragon_embers.tooltip.shift_down.3": "The §fPillagers§r used the embers as a §4Fuel Source§r",
+  "tooltip.pillagers-of-the-pyre.dragon_embers.tooltip.shift_down.1": "§4The Flame Embers§r of a §4Fire Dragon§r",
+  "tooltip.pillagers-of-the-pyre.dragon_embers.tooltip.shift_down.2": "A very difficult to obtain fuel source.",
+  "tooltip.pillagers-of-the-pyre.dragon_embers.tooltip.shift_down.3": "The §fPillagers§r used the embers as a §4Fuel Source§r.",
   "tooltip.pillagers-of-the-pyre.dragon_embers.tooltip.shift_down.4": "The §4Embers§r burned for so long",
-  "tooltip.pillagers-of-the-pyre.dragon_embers.tooltip.shift_down.5": "The §fPillagers§r ran out of materials to smelt",
-  "tooltip.pillagers-of-the-pyre.dragon_embers.tooltip.shift_down.6": "The person who brought down §4Mighty Fire Dragon§r and harvested",
+  "tooltip.pillagers-of-the-pyre.dragon_embers.tooltip.shift_down.5": "The §fPillagers§r ran out of materials to smelt.",
+  "tooltip.pillagers-of-the-pyre.dragon_embers.tooltip.shift_down.6": "The person who brought down a §4Fire Dragon§r and harvested",
   "tooltip.pillagers-of-the-pyre.dragon_embers.tooltip.shift_down.7": "its §4Flame Embers§r was considered a hero in their village",
   "tooltip.pillagers-of-the-pyre.dragon_embers.tooltip.1": "Press §eShift§r for more Information",
 
