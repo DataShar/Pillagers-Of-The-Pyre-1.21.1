@@ -12,6 +12,7 @@
   "item.pillagers-of-the-pyre.cooked_horse_meat": "Cooked Horse Meat",
   "item.pillagers-of-the-pyre.pillager_herb": "Pillager Herb",
   "item.pillagers-of-the-pyre.dragon_flame_embers": "Dragon Flame Embers",
+  "item.pillagers-of-the-pyre.reinforced_ravagerite_ingot": "Reinforced Ravagerite ",
 
 
 
@@ -19,6 +20,15 @@
   "block.pillagers-of-the-pyre.raw_ravagerite_block": "Raw Block of Ravagerite",
   "block.pillagers-of-the-pyre.ravagerite_deepslate_ore": "Ravagerite Deepslate Ore",
   "block.pillagers-of-the-pyre.magic_forger": "Magic Forger",
+  "block.pillagers-of-the-pyre.reinforced_ravagerite_stairs": "Reinforced Ravagerite Stairs",
+  "block.pillagers-of-the-pyre.reinforced_ravagerite_slab": "Reinforced Ravagerite Slab",
+  "block.pillagers-of-the-pyre.reinforced_ravagerite_button": "Reinforced Ravagerite Button",
+  "block.pillagers-of-the-pyre.reinforced_ravagerite_pressure_plate": "Reinforced Ravagerite Pressure Plate",
+  "block.pillagers-of-the-pyre.reinforced_ravagerite_fence": "Reinforced Ravagerite Fence",
+  "block.pillagers-of-the-pyre.reinforced_ravagerite_fence_gate": "Reinforced Ravagerite Fence Gate",
+  "block.pillagers-of-the-pyre.reinforced_ravagerite_wall": "Reinforced Ravagerite Wall",
+  "block.pillagers-of-the-pyre.reinforced_ravagerite_door": "Reinforced Ravagerite Door",
+  "block.pillagers-of-the-pyre.reinforced_ravagerite_trapdoor": "Reinforced Ravagerite Trapdoor",
 
   "itemgroup.potp.ravagerite_items": "Ravagerite Items",
   "itemgroup.potp.ravagerite_blocks": "Ravagerite Blocks",
@@ -31,7 +41,7 @@
   "tooltip.pillagers-of-the-pyre.staff.tooltip.3": "§4DONT GET BURNED§r",
 
   "tooltip.pillagers-of-the-pyre.magic_forger.tooltip.1": "Often used by people to forge a §4Fire Staff§r",
-  "tooltip.pillagers-of-the-pyre.magic_forger.tooltip.2": "But suddenly ",
+  "tooltip.pillagers-of-the-pyre.magic_forger.tooltip.2": "But suddenly they stopped",
 
   "tooltip.pillagers-of-the-pyre.dragon_embers.tooltip.shift_down.1": "§4The Flame Embers§r of a §4Fire Dragon§r",
   "tooltip.pillagers-of-the-pyre.dragon_embers.tooltip.shift_down.2": "A very difficult to obtain fuel source.",

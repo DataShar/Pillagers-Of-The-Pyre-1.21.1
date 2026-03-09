@@ -20,6 +20,7 @@ public class ModItems {
     public static final Item RAW_RAVAGERITE = registerItem("raw_ravagerite", new Item(new Item.Settings()));
     public static final Item RAVAGERITE_SHARD = registerItem("ravagerite_shard", new Item(new Item.Settings()));
     public static final Item RAVAGERITE_GEM = registerItem("ravagerite_gem",new Item(new Item.Settings()));
+    public static final Item REINFORCED_RAVAGERITE_INGOT = registerItem("reinforced_ravagerite_ingot", new Item(new Item.Settings()));
     public static final Item RAVAGERITE_INFUSED_STICK = registerItem("ravagerite_infused_stick", new Item(new Item.Settings()));
     public static final Item MEAD = registerItem("mead", new Item(new Item.Settings().food(ModFoodComponents.MEAD)));
     public static final Item RAW_GOAT_MEAT = registerItem("raw_goat_meat", new Item(new Item.Settings().food(ModFoodComponents.RAW_GOAT_MEAT)));
@@ -27,6 +28,9 @@ public class ModItems {
     public static final Item RAW_HORSE_MEAT = registerItem("raw_horse_meat", new Item(new Item.Settings().food(ModFoodComponents.RAW_HORSE_MEAT)));
     public static final Item COOKED_HORSE_MEAT = registerItem("cooked_horse_meat", new Item(new Item.Settings().food(ModFoodComponents.COOKED_HORSE_MEAT)));
     public static final Item PILLAGER_HERB = registerItem("pillager_herb", new Item(new Item.Settings().food(ModFoodComponents.PILLAGER_HERB)) {
+
+
+
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
             tooltip.add(Text.translatable("tooltip.pillagers-of-the-pyre.pillager_herb.tooltip.1"));

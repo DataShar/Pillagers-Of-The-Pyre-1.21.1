@@ -26,5 +26,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_RAVAGERITE_BLOCK)
                 .add(ModBlocks.RAVAGERITE_DEEPSLATE_ORE)
                 .add(ModBlocks.MAGIC_FORGER);
+
+        getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.REINFORCED_RAVAGERITE_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.REINFORCED_RAVAGERITE_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.REINFORCED_RAVAGERITE_WALL);
+
     }
 }

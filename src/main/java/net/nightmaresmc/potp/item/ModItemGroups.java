@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(ModItems.STAFF);
                         entries.add(ModItems.RAVAGERITE_GEM);
                         entries.add(ModItems.RAVAGERITE_INFUSED_STICK);
+                        entries.add(ModItems.REINFORCED_RAVAGERITE_INGOT);
 
                     }).build());
 
@@ -33,6 +34,19 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAVAGERITE_BLOCK);
                         entries.add(ModBlocks.RAW_RAVAGERITE_BLOCK);
                         entries.add(ModBlocks.RAVAGERITE_DEEPSLATE_ORE);
+
+                        entries.add(ModBlocks.REINFORCED_RAVAGERITE_STAIRS);
+                        entries.add(ModBlocks.REINFORCED_RAVAGERITE_SLAB);
+
+                        entries.add(ModBlocks.REINFORCED_RAVAGERITE_FENCE);
+                        entries.add(ModBlocks.REINFORCED_RAVAGERITE_FENCE_GATE);
+                        entries.add(ModBlocks.REINFORCED_RAVAGERITE_WALL);
+
+                        entries.add(ModBlocks.REINFORCED_RAVAGERITE_BUTTON);
+                        entries.add(ModBlocks.REINFORCED_RAVAGERITE_PRESSURE_PLATE);
+
+                        entries.add(ModBlocks.REINFORCED_RAVAGERITE_DOOR);
+                        entries.add(ModBlocks.REINFORCED_RAVAGERITE_TRAPDOOR);
 
                         entries.add(ModBlocks.MAGIC_FORGER);
 
