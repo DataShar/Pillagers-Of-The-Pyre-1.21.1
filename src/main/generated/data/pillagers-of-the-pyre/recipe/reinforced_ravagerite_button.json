@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pillagers-of-the-pyre:reinforced_ravagerite_ingot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pillagers-of-the-pyre:reinforced_ravagerite_button"
+  }
+}

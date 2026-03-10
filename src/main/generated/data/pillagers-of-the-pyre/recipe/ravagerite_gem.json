@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pillagers-of-the-pyre:dragon_flame_embers"
+    },
+    {
+      "item": "pillagers-of-the-pyre:ravagerite_ingot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pillagers-of-the-pyre:ravagerite_gem"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ravagerite_infused_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pillagers-of-the-pyre:ravagerite_infused_stick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ravagerite_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pillagers-of-the-pyre:ravagerite_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pillagers-of-the-pyre:ravagerite_pickaxe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ravagerite_ingot",
+      "has_ravagerite_infused_stick"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pillagers-of-the-pyre:ravagerite_pickaxe"
+    ]
+  }
+}

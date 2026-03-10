@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "pillagers-of-the-pyre:reinforced_ravagerite_ingot"
+    }
+  },
+  "pattern": [
+    "   ",
+    "SSS",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pillagers-of-the-pyre:reinforced_ravagerite_wall"
+  }
+}

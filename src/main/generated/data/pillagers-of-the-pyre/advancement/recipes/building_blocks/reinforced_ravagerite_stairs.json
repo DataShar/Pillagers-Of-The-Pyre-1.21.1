@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_reinforced_ravagerite_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pillagers-of-the-pyre:reinforced_ravagerite_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pillagers-of-the-pyre:reinforced_ravagerite_stairs"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_reinforced_ravagerite_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pillagers-of-the-pyre:reinforced_ravagerite_stairs"
+    ]
+  }
+}

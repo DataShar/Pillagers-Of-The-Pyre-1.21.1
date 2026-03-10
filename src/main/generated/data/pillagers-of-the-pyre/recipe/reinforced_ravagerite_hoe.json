@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "pillagers-of-the-pyre:ravagerite_infused_stick"
+    },
+    "S": {
+      "item": "pillagers-of-the-pyre:reinforced_ravagerite_ingot"
+    }
+  },
+  "pattern": [
+    " SS",
+    " D ",
+    " D "
+  ],
+  "result": {
+    "count": 1,
+    "id": "pillagers-of-the-pyre:reinforced_ravagerite_hoe"
+  }
+}

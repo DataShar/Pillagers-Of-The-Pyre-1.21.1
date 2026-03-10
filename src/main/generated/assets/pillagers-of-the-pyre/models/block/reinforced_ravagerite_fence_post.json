@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "pillagers-of-the-pyre:block/ravagerite_block"
+  }
+}

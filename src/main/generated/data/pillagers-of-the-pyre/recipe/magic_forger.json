@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "pillagers-of-the-pyre:ravagerite_block"
+    },
+    "F": {
+      "item": "pillagers-of-the-pyre:dragon_flame_embers"
+    },
+    "G": {
+      "item": "pillagers-of-the-pyre:ravagerite_gem"
+    }
+  },
+  "pattern": [
+    "BGB",
+    "GFG",
+    "BGB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pillagers-of-the-pyre:magic_forger"
+  }
+}

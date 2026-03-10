@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pillagers-of-the-pyre:block/reinforced_ravagerite_slab"
+    },
+    "type=double": {
+      "model": "pillagers-of-the-pyre:block/ravagerite_block"
+    },
+    "type=top": {
+      "model": "pillagers-of-the-pyre:block/reinforced_ravagerite_slab_top"
+    }
+  }
+}

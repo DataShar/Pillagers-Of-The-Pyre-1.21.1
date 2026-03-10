@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_top",
+  "textures": {
+    "texture": "pillagers-of-the-pyre:block/reinforced_ravagerite_trapdoor"
+  }
+}

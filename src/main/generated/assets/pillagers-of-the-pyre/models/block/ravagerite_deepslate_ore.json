@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "pillagers-of-the-pyre:block/ravagerite_deepslate_ore_bottom",
+    "side": "pillagers-of-the-pyre:block/ravagerite_deepslate_ore_side",
+    "top": "pillagers-of-the-pyre:block/ravagerite_deepslate_ore_top"
+  }
+}

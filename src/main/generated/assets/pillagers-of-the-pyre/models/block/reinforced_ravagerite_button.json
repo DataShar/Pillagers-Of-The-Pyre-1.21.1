@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "pillagers-of-the-pyre:block/ravagerite_block"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dragon_flame_embers": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pillagers-of-the-pyre:dragon_flame_embers"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ravagerite_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pillagers-of-the-pyre:ravagerite_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ravagerite_gem": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pillagers-of-the-pyre:ravagerite_gem"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pillagers-of-the-pyre:magic_forger"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ravagerite_gem",
+      "has_ravagerite_block",
+      "has_dragon_flame_embers"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pillagers-of-the-pyre:magic_forger"
+    ]
+  }
+}

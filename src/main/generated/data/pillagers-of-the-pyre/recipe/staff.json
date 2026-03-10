@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "pillagers-of-the-pyre:ravagerite_infused_stick"
+    },
+    "F": {
+      "item": "pillagers-of-the-pyre:dragon_flame_embers"
+    },
+    "G": {
+      "item": "pillagers-of-the-pyre:ravagerite_gem"
+    }
+  },
+  "pattern": [
+    " G ",
+    " F ",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "id": "pillagers-of-the-pyre:staff"
+  }
+}

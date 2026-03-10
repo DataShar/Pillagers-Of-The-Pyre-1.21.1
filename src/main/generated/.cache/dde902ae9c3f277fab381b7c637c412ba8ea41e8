@@ -1,0 +1,7 @@
+// 1.21.1	2026-03-10T06:47:26.1909357	Pillagers of the Pyre/Tags for minecraft:block
+413d23a7a65ef073f2ac68a268b30f64697bbb38 data\minecraft\tags\block\mineable\pickaxe.json
+2f961874fc4a5529912a75cca18b5b06ba7cae40 data\minecraft\tags\block\fences.json
+6bc58937741c07d91871e717e121786c255ca0d5 data\minecraft\tags\block\walls.json
+adc6f33f55ebc3471aa70b8ec421bd8aa7b12932 data\pillagers-of-the-pyre\tags\block\needs_ravagerite_tool.json
+f560aca9f6d03ec0e8a80c20ad40bc1b7287911a data\minecraft\tags\block\fence_gates.json
+413d23a7a65ef073f2ac68a268b30f64697bbb38 data\minecraft\tags\block\needs_diamond_tool.json

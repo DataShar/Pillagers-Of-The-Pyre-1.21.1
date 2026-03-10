@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "pillagers-of-the-pyre:item/reinforced_ravagerite_ingot"
+  }
+}

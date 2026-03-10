@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 500,
+  "experience": 0.15,
+  "group": "food",
+  "ingredient": {
+    "item": "pillagers-of-the-pyre:raw_goat_meat"
+  },
+  "result": {
+    "id": "pillagers-of-the-pyre:cooked_goat_meat"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:deepslate"
+    },
+    "S": {
+      "item": "pillagers-of-the-pyre:ravagerite_shard"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SDS",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pillagers-of-the-pyre:raw_ravagerite"
+  }
+}

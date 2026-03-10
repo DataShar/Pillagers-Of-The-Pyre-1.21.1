@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "pillagers-of-the-pyre:block/ravagerite_block",
+    "side": "pillagers-of-the-pyre:block/ravagerite_block",
+    "top": "pillagers-of-the-pyre:block/ravagerite_block"
+  }
+}

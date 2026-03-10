@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "pillagers-of-the-pyre:item/ravagerite_infused_stick"
+  }
+}

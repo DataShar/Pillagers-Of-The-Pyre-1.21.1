@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "pillagers-of-the-pyre:block/magic_forger_bottom",
+    "side": "pillagers-of-the-pyre:block/magic_forger_side",
+    "top": "pillagers-of-the-pyre:block/magic_forger_top"
+  }
+}
