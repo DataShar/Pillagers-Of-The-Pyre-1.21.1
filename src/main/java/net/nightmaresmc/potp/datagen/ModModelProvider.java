@@ -57,5 +57,15 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.DRAGON_FLAME_EMBERS, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAVAGERITE_INFUSED_STICK, Models.HANDHELD_ROD);
         itemModelGenerator.register(ModItems.STAFF, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RAVAGERITE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RAVAGERITE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RAVAGERITE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RAVAGERITE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RAVAGERITE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.REINFORCED_RAVAGERITE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.REINFORCED_RAVAGERITE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.REINFORCED_RAVAGERITE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.REINFORCED_RAVAGERITE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.REINFORCED_RAVAGERITE_HOE, Models.HANDHELD);
     }
 }

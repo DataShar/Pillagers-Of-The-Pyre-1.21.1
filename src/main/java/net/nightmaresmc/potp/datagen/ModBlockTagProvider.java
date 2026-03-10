@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 import net.nightmaresmc.potp.block.ModBlocks;
+import net.nightmaresmc.potp.util.ModTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -30,6 +31,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.REINFORCED_RAVAGERITE_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.REINFORCED_RAVAGERITE_FENCE_GATE);
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.REINFORCED_RAVAGERITE_WALL);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_RAVAGERITE_TOOL)
+                .add(ModBlocks.REINFORCED_RAVAGERITE_WALL)
+                .add(ModBlocks.REINFORCED_RAVAGERITE_STAIRS)
+                .add(ModBlocks.REINFORCED_RAVAGERITE_SLAB)
+                .add(ModBlocks.REINFORCED_RAVAGERITE_PRESSURE_PLATE)
+                .add(ModBlocks.REINFORCED_RAVAGERITE_BUTTON)
+                .add(ModBlocks.REINFORCED_RAVAGERITE_DOOR)
+                .add(ModBlocks.REINFORCED_RAVAGERITE_TRAPDOOR)
+                .add(ModBlocks.REINFORCED_RAVAGERITE_FENCE_GATE)
+                .add(ModBlocks.REINFORCED_RAVAGERITE_FENCE);
 
     }
 }

@@ -30,11 +30,23 @@
   "block.pillagers-of-the-pyre.reinforced_ravagerite_door": "Reinforced Ravagerite Door",
   "block.pillagers-of-the-pyre.reinforced_ravagerite_trapdoor": "Reinforced Ravagerite Trapdoor",
 
+  "item.pillagers-of-the-pyre.ravagerite_sword": "Ravagerite Sword",
+  "item.pillagers-of-the-pyre.ravagerite_axe": "Ravagerite Axe",
+  "item.pillagers-of-the-pyre.ravagerite_pickaxe": "Ravagerite Pickaxe",
+  "item.pillagers-of-the-pyre.ravagerite_shovel": "Ravagerite Shovel",
+  "item.pillagers-of-the-pyre.ravagerite_hoe": "Ravagerite Hoe",
+  "item.pillagers-of-the-pyre.reinforced_ravagerite_sword": "Reinforced Ravagerite Sword",
+  "item.pillagers-of-the-pyre.reinforced_ravagerite_axe": "Reinforced Ravagerite Axe",
+  "item.pillagers-of-the-pyre.reinforced_ravagerite_pickaxe": "Reinforced Ravagerite Pickaxe",
+  "item.pillagers-of-the-pyre.reinforced_ravagerite_shovel": "Reinforced Ravagerite Shovel",
+  "item.pillagers-of-the-pyre.reinforced_ravagerite_hoe": "Reinforced Ravagerite Hoe",
+
   "itemgroup.potp.ravagerite_items": "Ravagerite Items",
   "itemgroup.potp.ravagerite_blocks": "Ravagerite Blocks",
   "itemgroup.potp.pillager_foods": "Pillager Foods",
   "itemgroup.potp.pillager_drinks": "Pillager Drinks",
   "itemgroup.potp.pillager_fuel": "Pillager Fuel",
+  "itemgroup.potp.ravagerite_tools": "Ravagerite Tools",
 
   "tooltip.pillagers-of-the-pyre.staff.tooltip.1": "§4Right Click§r to shoot Fireball",
   "tooltip.pillagers-of-the-pyre.staff.tooltip.2": "§4Shift + Right Click§r to explode",

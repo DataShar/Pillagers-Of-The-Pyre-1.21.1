@@ -26,6 +26,24 @@ public class ModItemGroups {
 
                     }).build());
 
+    public static final ItemGroup RAVAGERITE_TOOLS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(PillagersOfThePyre.MOD_ID, "ravagerite_tools"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.REINFORCED_RAVAGERITE_AXE))
+                    .displayName(Text.translatable("itemgroup.potp.ravagerite_tools"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.RAVAGERITE_SWORD);
+                        entries.add(ModItems.RAVAGERITE_AXE);
+                        entries.add(ModItems.RAVAGERITE_PICKAXE);
+                        entries.add(ModItems.RAVAGERITE_SHOVEL);
+                        entries.add(ModItems.RAVAGERITE_HOE);
+                        entries.add(ModItems.REINFORCED_RAVAGERITE_SWORD);
+                        entries.add(ModItems.REINFORCED_RAVAGERITE_AXE);
+                        entries.add(ModItems.REINFORCED_RAVAGERITE_PICKAXE);
+                        entries.add(ModItems.REINFORCED_RAVAGERITE_SHOVEL);
+                        entries.add(ModItems.REINFORCED_RAVAGERITE_HOE);
+
+                    }).build());
+
     public static final ItemGroup RAVAGERITE_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(PillagersOfThePyre.MOD_ID, "ravagerite_blocks"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.RAVAGERITE_DEEPSLATE_ORE))

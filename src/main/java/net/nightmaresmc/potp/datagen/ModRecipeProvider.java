@@ -136,10 +136,117 @@ public class ModRecipeProvider  extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.RAVAGERITE_INFUSED_STICK), conditionsFromItem(ModItems.RAVAGERITE_INFUSED_STICK))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.REINFORCED_RAVAGERITE_PRESSURE_PLATE)
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("SS ")
+                .input('S', ModItems.REINFORCED_RAVAGERITE_INGOT)
+                .criterion(hasItem(ModItems.REINFORCED_RAVAGERITE_INGOT), conditionsFromItem(ModItems.REINFORCED_RAVAGERITE_INGOT))
+                .offerTo(exporter);
+
         createDoorRecipe(ModBlocks.REINFORCED_RAVAGERITE_DOOR,
                 Ingredient.ofItems(ModItems.REINFORCED_RAVAGERITE_INGOT))
                 .criterion(hasItem(ModItems.REINFORCED_RAVAGERITE_INGOT), conditionsFromItem(ModItems.REINFORCED_RAVAGERITE_INGOT))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAVAGERITE_SWORD)
+                .pattern(" S ")
+                .pattern(" S ")
+                .pattern(" D ")
+                .input('S', ModItems.RAVAGERITE_INGOT)
+                .input('D', ModItems.RAVAGERITE_INFUSED_STICK)
+                .criterion(hasItem(ModItems.RAVAGERITE_INGOT), conditionsFromItem(ModItems.RAVAGERITE_INGOT))
+                .criterion(hasItem(ModItems.RAVAGERITE_INFUSED_STICK), conditionsFromItem(ModItems.RAVAGERITE_INFUSED_STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAVAGERITE_AXE)
+                .pattern(" SS")
+                .pattern(" DS")
+                .pattern(" D ")
+                .input('S', ModItems.RAVAGERITE_INGOT)
+                .input('D', ModItems.RAVAGERITE_INFUSED_STICK)
+                .criterion(hasItem(ModItems.RAVAGERITE_INGOT), conditionsFromItem(ModItems.RAVAGERITE_INGOT))
+                .criterion(hasItem(ModItems.RAVAGERITE_INFUSED_STICK), conditionsFromItem(ModItems.RAVAGERITE_INFUSED_STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAVAGERITE_PICKAXE)
+                .pattern("SSS")
+                .pattern(" D ")
+                .pattern(" D ")
+                .input('S', ModItems.RAVAGERITE_INGOT)
+                .input('D', ModItems.RAVAGERITE_INFUSED_STICK)
+                .criterion(hasItem(ModItems.RAVAGERITE_INGOT), conditionsFromItem(ModItems.RAVAGERITE_INGOT))
+                .criterion(hasItem(ModItems.RAVAGERITE_INFUSED_STICK), conditionsFromItem(ModItems.RAVAGERITE_INFUSED_STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAVAGERITE_SHOVEL)
+                .pattern(" S ")
+                .pattern(" D ")
+                .pattern(" D ")
+                .input('S', ModItems.RAVAGERITE_INGOT)
+                .input('D', ModItems.RAVAGERITE_INFUSED_STICK)
+                .criterion(hasItem(ModItems.RAVAGERITE_INGOT), conditionsFromItem(ModItems.RAVAGERITE_INGOT))
+                .criterion(hasItem(ModItems.RAVAGERITE_INFUSED_STICK), conditionsFromItem(ModItems.RAVAGERITE_INFUSED_STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAVAGERITE_HOE)
+                .pattern(" SS")
+                .pattern(" D ")
+                .pattern(" D ")
+                .input('S', ModItems.RAVAGERITE_INGOT)
+                .input('D', ModItems.RAVAGERITE_INFUSED_STICK)
+                .criterion(hasItem(ModItems.RAVAGERITE_INGOT), conditionsFromItem(ModItems.RAVAGERITE_INGOT))
+                .criterion(hasItem(ModItems.RAVAGERITE_INFUSED_STICK), conditionsFromItem(ModItems.RAVAGERITE_INFUSED_STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_RAVAGERITE_SWORD)
+                .pattern(" S ")
+                .pattern(" S ")
+                .pattern(" D ")
+                .input('S', ModItems.REINFORCED_RAVAGERITE_INGOT)
+                .input('D', ModItems.RAVAGERITE_INFUSED_STICK)
+                .criterion(hasItem(ModItems.REINFORCED_RAVAGERITE_INGOT), conditionsFromItem(ModItems.REINFORCED_RAVAGERITE_INGOT))
+                .criterion(hasItem(ModItems.RAVAGERITE_INFUSED_STICK), conditionsFromItem(ModItems.RAVAGERITE_INFUSED_STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_RAVAGERITE_AXE)
+                .pattern(" SS")
+                .pattern(" DS")
+                .pattern(" D ")
+                .input('S', ModItems.REINFORCED_RAVAGERITE_INGOT)
+                .input('D', ModItems.RAVAGERITE_INFUSED_STICK)
+                .criterion(hasItem(ModItems.REINFORCED_RAVAGERITE_INGOT), conditionsFromItem(ModItems.REINFORCED_RAVAGERITE_INGOT))
+                .criterion(hasItem(ModItems.RAVAGERITE_INFUSED_STICK), conditionsFromItem(ModItems.RAVAGERITE_INFUSED_STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_RAVAGERITE_PICKAXE)
+                .pattern("SSS")
+                .pattern(" D ")
+                .pattern(" D ")
+                .input('S', ModItems.REINFORCED_RAVAGERITE_INGOT)
+                .input('D', ModItems.RAVAGERITE_INFUSED_STICK)
+                .criterion(hasItem(ModItems.REINFORCED_RAVAGERITE_INGOT), conditionsFromItem(ModItems.REINFORCED_RAVAGERITE_INGOT))
+                .criterion(hasItem(ModItems.RAVAGERITE_INFUSED_STICK), conditionsFromItem(ModItems.RAVAGERITE_INFUSED_STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_RAVAGERITE_SHOVEL)
+                .pattern(" S ")
+                .pattern(" D ")
+                .pattern(" D ")
+                .input('S', ModItems.REINFORCED_RAVAGERITE_INGOT)
+                .input('D', ModItems.RAVAGERITE_INFUSED_STICK)
+                .criterion(hasItem(ModItems.REINFORCED_RAVAGERITE_INGOT), conditionsFromItem(ModItems.REINFORCED_RAVAGERITE_INGOT))
+                .criterion(hasItem(ModItems.RAVAGERITE_INFUSED_STICK), conditionsFromItem(ModItems.RAVAGERITE_INFUSED_STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_RAVAGERITE_HOE)
+                .pattern(" SS")
+                .pattern(" D ")
+                .pattern(" D ")
+                .input('S', ModItems.REINFORCED_RAVAGERITE_INGOT)
+                .input('D', ModItems.RAVAGERITE_INFUSED_STICK)
+                .criterion(hasItem(ModItems.REINFORCED_RAVAGERITE_INGOT), conditionsFromItem(ModItems.REINFORCED_RAVAGERITE_INGOT))
+                .criterion(hasItem(ModItems.RAVAGERITE_INFUSED_STICK), conditionsFromItem(ModItems.RAVAGERITE_INFUSED_STICK))
+                .offerTo(exporter);
     }
 }

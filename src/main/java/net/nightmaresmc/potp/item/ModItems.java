@@ -2,9 +2,7 @@ package net.nightmaresmc.potp.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.client.gui.screen.Screen;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -28,9 +26,6 @@ public class ModItems {
     public static final Item RAW_HORSE_MEAT = registerItem("raw_horse_meat", new Item(new Item.Settings().food(ModFoodComponents.RAW_HORSE_MEAT)));
     public static final Item COOKED_HORSE_MEAT = registerItem("cooked_horse_meat", new Item(new Item.Settings().food(ModFoodComponents.COOKED_HORSE_MEAT)));
     public static final Item PILLAGER_HERB = registerItem("pillager_herb", new Item(new Item.Settings().food(ModFoodComponents.PILLAGER_HERB)) {
-
-
-
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
             tooltip.add(Text.translatable("tooltip.pillagers-of-the-pyre.pillager_herb.tooltip.1"));
@@ -60,6 +55,36 @@ public class ModItems {
 
 
     public static final Item STAFF =registerItem("staff", new StaffItem(new Item.Settings().maxDamage(32)));
+    public static final Item RAVAGERITE_SWORD = registerItem("ravagerite_sword",
+            new SwordItem(ModToolsMaterials.RAVAGERITE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolsMaterials.RAVAGERITE, 10, -2.4F))));
+    public static final Item RAVAGERITE_PICKAXE = registerItem("ravagerite_pickaxe",
+            new PickaxeItem(ModToolsMaterials.RAVAGERITE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolsMaterials.RAVAGERITE, 2, -2.8F))));
+    public static final Item RAVAGERITE_SHOVEL = registerItem("ravagerite_shovel",
+            new ShovelItem(ModToolsMaterials.RAVAGERITE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolsMaterials.RAVAGERITE, 2, -2.8F))));
+    public static final Item RAVAGERITE_AXE = registerItem("ravagerite_axe",
+            new AxeItem(ModToolsMaterials.RAVAGERITE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolsMaterials.RAVAGERITE, 11, -2.6F))));
+    public static final Item RAVAGERITE_HOE = registerItem("ravagerite_hoe",
+            new HoeItem(ModToolsMaterials.RAVAGERITE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolsMaterials.RAVAGERITE, 1, -3.0F))));
+    public static final Item REINFORCED_RAVAGERITE_SWORD = registerItem("reinforced_ravagerite_sword",
+            new SwordItem(ModToolsMaterials.REINFORCED_RAVAGERITE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolsMaterials.REINFORCED_RAVAGERITE, 12, -2.0F))));
+    public static final Item REINFORCED_RAVAGERITE_PICKAXE = registerItem("reinforced_ravagerite_pickaxe",
+            new PickaxeItem(ModToolsMaterials.REINFORCED_RAVAGERITE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolsMaterials.REINFORCED_RAVAGERITE, 4, -2.6F))));
+    public static final Item REINFORCED_RAVAGERITE_SHOVEL = registerItem("reinforced_ravagerite_shovel",
+            new ShovelItem(ModToolsMaterials.REINFORCED_RAVAGERITE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolsMaterials.REINFORCED_RAVAGERITE, 4, -2.8F))));
+    public static final Item REINFORCED_RAVAGERITE_AXE = registerItem("reinforced_ravagerite_axe",
+            new AxeItem(ModToolsMaterials.REINFORCED_RAVAGERITE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolsMaterials.REINFORCED_RAVAGERITE, 15, -2.2F))));
+    public static final Item REINFORCED_RAVAGERITE_HOE = registerItem("reinforced_ravagerite_hoe",
+            new HoeItem(ModToolsMaterials.REINFORCED_RAVAGERITE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolsMaterials.REINFORCED_RAVAGERITE, 1, -3.0F))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(PillagersOfThePyre.MOD_ID, name), item);
